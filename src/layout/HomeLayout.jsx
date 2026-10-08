@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import Home from "../components/Home";
+import LatestNews from "../components/LatestNews";
 
 const HomeLayout = () => {
   return (
@@ -7,6 +8,10 @@ const HomeLayout = () => {
       <header>
         <Home></Home>
       </header>
+      <section>
+        <LatestNews></LatestNews>
+      </section>
+      <nav></nav>
       <main>
         <section className="left"></section>
         <section className="main">
