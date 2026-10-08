@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import Home from "../components/Home";
 import LatestNews from "../components/LatestNews";
+import Navbar from "../components/Navbar";
 
 const HomeLayout = () => {
   return (
@@ -11,7 +12,9 @@ const HomeLayout = () => {
       <section>
         <LatestNews></LatestNews>
       </section>
-      <nav></nav>
+      <nav>
+        <Navbar></Navbar>
+      </nav>
       <main>
         <section className="left"></section>
         <section className="main">

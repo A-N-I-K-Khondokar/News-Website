@@ -4,7 +4,7 @@ const Marquee = marqueeModule.default;
 
 const LatestNews = () => {
   return (
-    <div className="flex items-center my-5 w-8/12 mx-auto justify-between bg-base-300 rounded-2xl">
+    <div className="flex items-center my-5 w-11/12 mx-auto justify-between bg-base-300 rounded-2xl font-semibold text-accent">
       <button className="btn btn-secondary px-6">Latest</button>
       <Marquee className="py-2" pauseOnHover={true}>
         <span className="mr-2">
